@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative w-full min-h-screen overflow-hidden lg:bg-[url('/scifi-spaceboy.png')] lg:bg-fixed lg:bg-cover lg:bg-center">
+    <section
+      id="hero"
+      className="relative w-full min-h-screen overflow-hidden lg:bg-[url('/scifi-spaceboy.png')] lg:bg-fixed lg:bg-cover lg:bg-center"
+    >
       <Image
         src="/scifi-spaceboy-mobileS.png"
         alt="Scifi space boy with bike"
@@ -15,23 +18,23 @@ export default function Hero() {
       {/* Overlay text */}
       <div className="absolute top-0 py-[6rem] sm:py-[6.5rem] z-10 lg:py-[8rem] text-center lg:text-start px-[1rem] sm:px-[2rem] lg:px-[4rem]">
         <p className="italic text-[0.8rem] sm:text-[1rem] pb-[1rem] sm:pb-[2rem]">
-          enter the 37th chamber
+          enter the 998th chamber
         </p>
         <h1 className="text-[2rem] font-[400] sm:font-[300] md:font-[200] sm:text-[4rem] lg:text-[7.5rem] leading-[3rem] sm:leading-[5rem] lg:leading-[7rem]">
           Take Your{" "}
           <span className="text-punch-blue">
             <span className="md:hidden">MEDS</span>
             <span className="hidden md:inline-block">
-              <span className="inline-block hover:-translate-y-[1rem] transition-transform duration-300 ease-in-out">
+              <span className="inline-block hover:-translate-y-[0.5rem] transition-transform duration-300 ease-in-out">
                 M
               </span>
-              <span className="inline-block hover:-translate-y-[1rem] transition-transform duration-300 ease-in-out">
+              <span className="inline-block hover:-translate-y-[0.5rem] transition-transform duration-300 ease-in-out">
                 E
               </span>
-              <span className="inline-block hover:-translate-y-[1rem] transition-transform duration-300 ease-in-out">
+              <span className="inline-block hover:-translate-y-[0.5rem] transition-transform duration-300 ease-in-out">
                 D
               </span>
-              <span className="inline-block hover:-translate-y-[1rem] transition-transform duration-300 ease-in-out">
+              <span className="inline-block hover:-translate-y-[0.5rem] transition-transform duration-300 ease-in-out">
                 S
               </span>
             </span>
