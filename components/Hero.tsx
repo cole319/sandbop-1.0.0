@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative w-full min-h-screen overflow-hidden lg:bg-[url('/scifi-spaceboy.png')] lg:bg-fixed lg:bg-cover lg:bg-center"
+      className="relative w-full min-h-[110vh] overflow-hidden lg:bg-[url('/scifi-spaceboy.png')] lg:bg-fixed lg:bg-cover lg:bg-center"
     >
       <Image
         src="/scifi-spaceboy-mobileS.png"

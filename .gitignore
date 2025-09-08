@@ -42,3 +42,5 @@ next-env.d.ts
 
 # personal
 HeroDraft.tsx
+NavbarDraft.tsx
+pageDraft.tsx

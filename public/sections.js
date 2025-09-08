@@ -36,7 +36,7 @@ export const sectionsData = [
   },
   {
     id: "6",
-    heading: "Miscellaneous",
+    heading: "Random",
     subHeading: "The abandoned kids",
     desc: "Anything that does not fit in any of the above, goes here",
     image: "/misc-six-headed-boy.png",

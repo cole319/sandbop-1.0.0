@@ -38,7 +38,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="hidden lg:w-1/2 lg:flex lg:justify-end lg:items-start lg:border-l-[0.2px] border-neutral-white">
+        <div className="hidden lg:w-1/2 lg:flex lg:justify-end lg:items-start">
           <Image
             src="/misc-white-bully.png"
             height={400}

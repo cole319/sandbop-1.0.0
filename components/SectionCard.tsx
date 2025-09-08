@@ -15,7 +15,7 @@ export default function SectionCard({
   image,
 }: SectionCardProps) {
   return (
-    <div className="bg-base-dark/80 flex flex-col h-full pb-[2rem]">
+    <section className="bg-base-dark/80 flex flex-col h-full pb-[2rem] z-10">
       <div className="w-full aspect-[4/3] relative">
         <Image
           src={image}
@@ -33,6 +33,6 @@ export default function SectionCard({
         </h2>
         <p>{desc}</p>
       </div>
-    </div>
+    </section>
   );
 }
