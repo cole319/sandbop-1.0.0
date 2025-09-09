@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ScifiHome() {
   return (
-    <section className="bg-base-dark">
+    <section className="bg-base-dark min-h-screen">
       <header id="nav"></header>
       <div id="hero"></div>
       <div id=""></div>

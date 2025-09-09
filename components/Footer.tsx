@@ -60,7 +60,7 @@ export default function Footer() {
         </p>
         <p className="text-xs text-neutral-gray">
           Respectfully: <span className="text-neon-magenta">fuck off</span> and
-          make something cool.
+          make yourself useful.
         </p>
       </div>
 
