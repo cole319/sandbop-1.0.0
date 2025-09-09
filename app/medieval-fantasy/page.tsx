@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import MedievalNavbar from "./components/MedievalNavbar";
+import MedievalFooter from "./components/MedievalFooter";
 import MedievalGallery from "./components/MedievalGallery";
 import MedievalHero from "./components/MedievalHero";
 import MedievalIntro from "./components/MedievalIntro";
 
 export default function MedievalFantasyHome() {
   return (
-    <section>
-      <Navbar />
-      <div id="medieval-hero" className="">
+    <section className="bg-base-midnight min-h-screen">
+      <MedievalNavbar />
+      <div id="medieval-hero">
         <MedievalHero />
       </div>
       <div id="medieval-intro">
@@ -18,7 +18,7 @@ export default function MedievalFantasyHome() {
       <div id="medieval-gallery">
         <MedievalGallery />
       </div>
-      <Footer />
+      <MedievalFooter />
     </section>
   );
 }

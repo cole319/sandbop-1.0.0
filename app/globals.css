@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+  /* base */
   --background: #ffffff;
   --foreground: #171717;
 
@@ -14,9 +15,61 @@
   --punch-orange: #ff9500;
   --punch-green: #39ff14;
   --punch-blue: #3b9bf5;
+
+  /* pages */
+
+  /* medieval */
+
+  --stone-50: #acafa9;
+  --stone-100: #5f6460;
+  --stone-200: #7e9096;
+  --stone-300: #74828d;
+  --stone-400: #3f4f51;
+  --stone-500: #333531;
+  --stone-600: #212e2f;
+  --stone-700: #37434c;
+  --stone-800: #090c0d;
+  --stone-900: #8c4c36;
+
+  /* --- Misty Blues --- */
+  --mist-50: #bac9d2;
+  --mist-100: #95afbd;
+  --mist-200: #6c8694;
+  --mist-300: #546f7f;
+  --mist-400: #84a0af;
+  --mist-500: #48606e;
+  --mist-600: #394f5f;
+  --mist-700: #242b31;
+  --mist-800: #756360;
+  --mist-900: #a85a35;
+
+  /* --- Blood & Ash --- */
+  --blood-50: #ded4cf;
+  --blood-100: #a8a09b;
+  --blood-200: #756862;
+  --blood-300: #67525d;
+  --blood-400: #948a95;
+  --blood-500: #a4332e;
+  --blood-600: #772722;
+  --blood-700: #441c19;
+  --blood-800: #140705;
+  --blood-900: #d13832;
+
+  /* --- Ashen Reds --- */
+  --ashred-50: #bcbbc0;
+  --ashred-100: #838c8e;
+  --ashred-200: #82838c;
+  --ashred-300: #40434c;
+  --ashred-400: #434c50;
+  --ashred-500: #232c2c;
+  --ashred-600: #362a2d;
+  --ashred-700: #5f383d;
+  --ashred-800: #0b0c0d;
+  --ashred-900: #8c1723;
 }
 
 @theme inline {
+  /* default */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
@@ -24,9 +77,17 @@
 
   /* Fonts */
 
+  /* base */
   --font-iceberg: var(--iceberg);
   --font-michroma: var(--michroma);
   --font-opensans: var(--open-sans);
+
+  /* pages */
+  /* medieval */
+
+  --font-unifrak: var(--unifraktur);
+  --font-cinzel: var(--cinzelDecorative);
+  --font-eb: var(--eb-garamond);
 
   /* Color Palette */
 
@@ -61,6 +122,58 @@
       transparent 1px
     ),
     linear-gradient(to bottom, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+
+  /* pages */
+
+  /* medieval */
+
+  /* --- Stone & Steel --- */
+  --color-stone-50: var(--stone-50);
+  --color-stone-100: var(--stone-100);
+  --color-stone-200: var(--stone-200);
+  --color-stone-300: var(--stone-300);
+  --color-stone-400: var(--stone-400);
+  --color-stone-500: var(--stone-500);
+  --color-stone-600: var(--stone-600);
+  --color-stone-700: var(--stone-700);
+  --color-stone-800: var(--stone-800);
+  --color-stone-900: var(--stone-900);
+
+  /* --- Misty Blues --- */
+  --color-mist-50: var(--mist-50);
+  --color-mist-100: var(--mist-100);
+  --color-mist-200: var(--mist-200);
+  --color-mist-300: var(--mist-300);
+  --color-mist-400: var(--mist-400);
+  --color-mist-500: var(--mist-500);
+  --color-mist-600: var(--mist-600);
+  --color-mist-700: var(--mist-700);
+  --color-mist-800: var(--mist-800);
+  --color-mist-900: var(--mist-900);
+
+  /* --- Blood & Ash --- */
+  --color-blood-50: var(--blood-50);
+  --color-blood-100: var(--blood-100);
+  --color-blood-200: var(--blood-200);
+  --color-blood-300: var(--blood-300);
+  --color-blood-400: var(--blood-400);
+  --color-blood-500: var(--blood-500);
+  --color-blood-600: var(--blood-600);
+  --color-blood-700: var(--blood-700);
+  --color-blood-800: var(--blood-800);
+  --color-blood-900: var(--blood-900);
+
+  /* --- Ashen Reds --- */
+  --color-ashred-50: var(--ashred-50);
+  --color-ashred-100: var(--ashred-100);
+  --color-ashred-200: var(--ashred-200);
+  --color-ashred-300: var(--ashred-300);
+  --color-ashred-400: var(--ashred-400);
+  --color-ashred-500: var(--ashred-500);
+  --color-ashred-600: var(--ashred-600);
+  --color-ashred-700: var(--ashred-700);
+  --color-ashred-800: var(--ashred-800);
+  --color-ashred-900: var(--ashred-900);
 }
 
 @media (prefers-color-scheme: dark) {
