@@ -50,7 +50,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="relative z-10 border-t border-neutral-white/30 py-[4rem] px-[4rem] flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="relative z-10 border-t border-neutral-white/30 py-[4rem] px-[4rem] flex flex-col md:flex-row justify-center  md:justify-between items-center gap-4">
         <p className="text-xs text-neutral-gray">
           © {new Date().getFullYear()}{" "}
           <span className="font-michroma italic text-neon-magenta">

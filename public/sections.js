@@ -5,6 +5,7 @@ export const sectionsData = [
     subHeading: "My primary obsession",
     desc: "This section contains images and other stuff related to the Medieval Fantasy pop culture elements. That contains concept arts, reimagination, character designs etc",
     image: "/ancient-amazonian-archer.png",
+    link: "/medieval-fantasy",
   },
   {
     id: "2",
@@ -12,6 +13,7 @@ export const sectionsData = [
     subHeading: "This is where the crazy hides",
     desc: "Not a big fan of sci-fi but plenty of things that I like fall into the same spectrum.",
     image: "/scifi-xenomorph-robot-bike.png",
+    link: "/scifi",
   },
   {
     id: "3",
@@ -19,6 +21,7 @@ export const sectionsData = [
     subHeading: "It's about that Y chromosome",
     desc: "This section contains images of women, primarily ai generated images, which contain concept arts of women characters(game, comics...), images of some random women and some celebs too",
     image: "/babes-butt.png",
+    link: "/birdies",
   },
   {
     id: "4",
@@ -26,19 +29,22 @@ export const sectionsData = [
     subHeading: "Original & photorealistic ai images",
     desc: "It is a collection of my favourite pop culture icons... actors, musicians, rappers, fictional characters and also some ai generated images which look real enough for dummies",
     image: "/irl-niko-bellic-gta.png",
+    link: "/irl",
   },
   {
     id: "5",
-    heading: "NSFW",
-    subHeading: "Yeah this is mandatory",
-    desc: "Ain't it self-explanatory?",
-    image: "/nsfw-boobs-tattoo.png",
-  },
-  {
-    id: "6",
     heading: "Random",
     subHeading: "The abandoned kids",
     desc: "Anything that does not fit in any of the above, goes here",
     image: "/misc-six-headed-boy.png",
+    link: "/random",
+  },
+  {
+    id: "6",
+    heading: "NSFW",
+    subHeading: "Yeah this is mandatory",
+    desc: "Ain't it self-explanatory?",
+    image: "/nsfw-boobs-tattoo.png",
+    link: "/nsfw",
   },
 ];

@@ -15,6 +15,7 @@ export default function Gallery() {
           subHeading={data.subHeading}
           desc={data.desc}
           image={data.image}
+          link={data.link}
         />
       ))}
     </section>
