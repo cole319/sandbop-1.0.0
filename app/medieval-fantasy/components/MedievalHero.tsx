@@ -4,13 +4,16 @@ import Image from "next/image";
 export default function MedievalHero() {
   return (
     <section className="h-[40rem] grid grid-cols-4 grid-rows-9">
-      <div className="pt-[6rem] relative bg-gradient-to-tl from-blood-50 via-blood-500 to-ashred-900 col-start-1 col-end-5 row-start-1 row-end-9">
+      <div className="hidden lg:block pt-[6rem] relative bg-gradient-to-tl from-blood-50 via-blood-500 to-ashred-900 lg:col-start-1 lg:col-end-5 lg:row-start-1 lg:row-end-9">
         <div className="z-10 leading-[8rem] absolute text-blood-50 text-[10rem] font-unifrak bottom-[4rem] left-[6rem]">
-          <h1 className="tracking-widest text-shadow-lg text-shadow-black">
+          <p className="font-cinzel font-[400] text-[4rem] text-blood-50/80">
+            Enter The Ancient Dirt
+          </p>
+          <h1 className="tracking-widest text-shadow-lg text-shadow-base-dark">
             Medieval
           </h1>
-          <h1 className="tracking-widest text-shadow-lg text-shadow-black">
-            Fantasy
+          <h1 className="tracking-widest text-shadow-lg text-shadow-base-dark">
+            fantasy
           </h1>
         </div>
       </div>
