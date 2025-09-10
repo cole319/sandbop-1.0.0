@@ -7,7 +7,7 @@ import MedievalIntro from "./components/MedievalIntro";
 
 export default function MedievalFantasyHome() {
   return (
-    <section className="bg-base-midnight min-h-screen">
+    <section className="bg-base-dark min-h-screen">
       <MedievalNavbar />
       <div id="medieval-hero">
         <MedievalHero />
